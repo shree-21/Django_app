@@ -20,6 +20,7 @@ from django.conf.urls.static import static
 from photo_app import views
 
 urlpatterns = [
+    url(r'^photo_upload', views.photo_upload, name='photo_upload'),
     url(r'^photo_app/', include('photo_app.urls')),
     url(r'admin/', admin.site.urls),
 ]
