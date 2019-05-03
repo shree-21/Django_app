@@ -30,7 +30,7 @@ SECRET_KEY = '+@3uo*oip&%7ngm!j4_s73^!d9ijy@y6m0j9r8(-d(j=qsz-eg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangophotouploadapp.herokuapp', '127.0.0.1']
+ALLOWED_HOSTS = ['djangophotouploadapp.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
